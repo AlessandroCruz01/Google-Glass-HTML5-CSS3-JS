@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+section#conteudo {
+    width: 1000px;
+    margin: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+iframe#spac {
+    width: 380px;
+    height: 280px;
+    border: none;
+    overflow: hidden;
+}
+
+
+iframe#spac::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* NESTA PARTE TIVE PROBLEMAS COM RELAÇÃO A BARRA DE ROLAGEM LATERAL, FOI NECESSÁRIO VOLTAR AO ARQUIVO SPECS.HTML E ADICIONAR O ATRIBUTO scrolling="no" NA TAG IFRAME!
